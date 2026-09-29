@@ -1,0 +1,44 @@
+CÓMO AGREGAR TUS IMÁGENES Y VIDEOS
+====================================
+
+En "Proyectos" ya dejé listos los espacios donde van tus capturas de tus
+páginas web y tus fotos/videos de gimbal (los que dicen "Aquí va tu foto..."
+o "Aquí va la captura de tu página..."). Solo hace falta que:
+
+1. Copia tus imágenes dentro de la carpeta "assets/img"
+   y tus videos dentro de la carpeta "assets/video".
+
+2. Abre el archivo "js/carousel.js" y busca el objeto "projectsData".
+
+3. En el bloque que quieras llenar, agrega "media" con el nombre de tu
+   archivo y "type" con 'image' o 'video'. Ejemplo, para una captura de
+   página:
+
+   {
+     title: 'Mi página de [cliente]',
+     org: 'Nombre del cliente',
+     desc: 'Descripción corta del proyecto.',
+     tags: ['HTML/CSS', 'JavaScript'],
+     kind: 'web',
+     media: 'assets/img/pagina-1.jpg',
+     type: 'image'
+   }
+
+   Para un video de gimbal:
+
+   {
+     title: 'Recorrido inmobiliario en [lugar]',
+     org: 'Valdrix Motion',
+     desc: 'Descripción corta del video.',
+     tags: ['Dron', 'Gimbal'],
+     kind: 'audiovisual',
+     media: 'assets/video/gimbal-1.mp4',
+     type: 'video',
+     playable: true
+   }
+
+4. Guarda el archivo y recarga index.html en el navegador.
+   Puedes duplicar cualquier bloque para agregar más fotos o videos.
+
+Si prefieres, súbeme tus imágenes o videos en el chat y yo los acomodo
+directamente en el código.
