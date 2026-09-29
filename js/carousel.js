@@ -7,17 +7,17 @@ const projectsData = {
       desc: 'Sitio web enfocado en tecnología y mecatrónica, ofreciendo soporte técnico y mantenimiento de equipos.', 
       tags: ['HTML/CSS', 'JavaScript', 'Mecatrónica'], 
       kind: 'web',
-      media: 'assets/img/MECA1.png',
+      media: 'assets/img/meca1.png',
       type: 'image',
       gallery: [
-        'assets/img/MECA1.png',
-        'assets/img/MECA2.png',
-        'assets/img/MECA3.png',
-        'assets/img/MECA4.png',
-        'assets/img/MECA5.png',
-        'assets/img/MECA6.png',
-        'assets/img/MECA7.png',
-        'assets/img/MECA8.png'
+        'assets/img/meca1.png',
+        'assets/img/meca2.png',
+        'assets/img/meca3.png',
+        'assets/img/meca4.png',
+        'assets/img/meca5.png',
+        'assets/img/meca6.png',
+        'assets/img/meca7.png',
+        'assets/img/meca8.png'
       ]
     },
     { 
